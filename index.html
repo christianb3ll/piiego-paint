@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="lib/p5.min.js"></script>
+    <script src="lib/p5.dom.js"></script>
+
+    <script src="sketch.js"></script>
+
+    <!-- Icon images provided by icons8 - https://icons8.com/ -->
+    <!-- add extra scripts below -->
+    <script src="toolbox.js"></script>
+    <script src="colourPalette.js"></script>
+    <script src="colourPicker.js"></script>  
+    <script src="helperFunctions.js"></script>
+    <script src="globalOptions.js"></script>
+    <script src="freehandTool.js"></script>
+    <script src="eraserTool.js"></script>
+    <script src="lineToTool.js"></script>
+    <script src="primitiveTool.js"></script>
+    <script src="mirrorDrawTool.js"></script>
+    <script src="sprayCanTool.js"></script>
+    <script src="stampTool.js"></script>
+    <script src="cloneTool.js"></script>
+    <script src="shapeDrawTool.js"></script>
+    <script src="paintFillTool.js"></script>
+    
+<!--    <script src="motionPaintTool.js"></script>-->
+    
+    <link href="assets/fonts/FjallaOne-Regular.ttf" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+  	<div class="wrapper">
+      <div class="box header">Piiego Paint
+      </div>
+        
+        <div class="box headerOpts">
+            <button id="saveImageButton">Save Image</button>
+        <button id="clearButton">Clear</button>  
+        </div>
+      <div class="box" id="sidebar"></div>
+      <div id="content"></div>
+      <div class="box colourPalette"></div>
+      <div class="box options"></div>
+      <div class="box secondaryOptions"></div>
+      <div class="box globalOptions"></div>
+	</div>
+  </body>
+    
+</html>
